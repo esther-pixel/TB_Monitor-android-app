@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="15dp"
+    android:padding="8dp"
+    tools:context=".activities.Quest">
+
+
+    <TextView
+        android:id="@+id/textview_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
+        android:text="f.) Chest Pain?"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_a"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yes_f"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_a"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout_a"
+        android:layout_marginTop="8dp"
+        android:background="#C2185B" />
+
+    <TextView
+        android:id="@+id/textview_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_a"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
+        android:text="g. Have you had contact with anyone with active tuberculosis disease in the past four weeks?"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_b"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yes_g"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_b"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout_b"
+        android:layout_marginTop="8dp"
+        android:background="#C2185B" />
+
+    <TextView
+        android:id="@+id/textview_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_b"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
+        android:text="h.) Do you have a medical condition, or are you taking medications?"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/layout_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_c"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yes_h"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_c"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout_c"
+        android:layout_marginTop="8dp"
+        android:background="#C2185B" />
+
+
+    <View
+        android:id="@+id/view_d"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout_c"
+        android:layout_marginTop="8dp"
+        android:background="#C2185B" />
+
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_d"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Previous"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/submit_answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_d"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="Submit"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

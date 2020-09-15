@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:padding="10dp"
+    tools:context=".activities.Preventive">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. INTEGRATED, PATIENT-CENTRED CARE AND PREVENTION\n\n"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="1. Use a fan or open windows to move around fresh air."
+        android:textColor="#0329FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/two"
+        android:fontFamily="monospace"
+        android:text="2. Always cover your mouth with a tissue when you cough or sneeze. Seal the tissue in a plastic bag, then throw it away."
+        android:textColor="#0329FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/three"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="3. Stay home from work, school, or other public places."
+        android:textColor="#0329FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/four"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="4. Don’t visit other people and don’t invite them to visit you"
+        android:textColor="#0329FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/five"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="5. Wash your hands after coughing or sneezing."
+        android:textColor="#0329FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/seven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/six"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="6. Always cover your mouth with a tissue when you cough or sneeze. Seal the tissue in a plastic bag, then throw it away."
+        android:textColor="#0329FF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/eight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seven"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:text="7. Keep all your doctor appointments."
+        android:textColor="#0329FF" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eight"
+        android:layout_marginTop="25dp"
+        android:autoLink="web"
+        android:text="More Info: https://tbfacts.org/tb-prevention/"></TextView>
+
+
+</RelativeLayout>
